@@ -7,4 +7,6 @@ target 'TaxiSharing' do
 
   # Pods for TaxiSharing
 pod ‘Pulley’
+pod ’Firebase/Database’
+pod ’Firebase/Auth’
 end

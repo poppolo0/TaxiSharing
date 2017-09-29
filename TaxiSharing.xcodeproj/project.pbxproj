@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7525A75C1F7EB7F1001FD1CB /* loginTX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7525A75B1F7EB7F1001FD1CB /* loginTX.storyboard */; };
+		7525A75E1F7EB817001FD1CB /* LoginTXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525A75D1F7EB817001FD1CB /* LoginTXViewController.swift */; };
+		7525A75F1F7EC7EC001FD1CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7525A75A1F7E9621001FD1CB /* GoogleService-Info.plist */; };
 		753DEED11F7E59A600AEE151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DEED01F7E59A600AEE151 /* AppDelegate.swift */; };
 		753DEED31F7E59A600AEE151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DEED21F7E59A600AEE151 /* ViewController.swift */; };
 		753DEED61F7E59A600AEE151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753DEED41F7E59A600AEE151 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		18B3DB91DC2B3F1E73D3CD8A /* Pods-TaxiSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiSharing/Pods-TaxiSharing.debug.xcconfig"; sourceTree = "<group>"; };
 		3D7EA2D25E4B76F57A505FEA /* Pods_TaxiSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7525A75A1F7E9621001FD1CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7525A75B1F7EB7F1001FD1CB /* loginTX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginTX.storyboard; sourceTree = "<group>"; };
+		7525A75D1F7EB817001FD1CB /* LoginTXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTXViewController.swift; sourceTree = "<group>"; };
 		753DEECD1F7E59A600AEE151 /* TaxiSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753DEED01F7E59A600AEE151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753DEED21F7E59A600AEE151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,11 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				753DEED01F7E59A600AEE151 /* AppDelegate.swift */,
+				7525A75B1F7EB7F1001FD1CB /* loginTX.storyboard */,
+				7525A75D1F7EB817001FD1CB /* LoginTXViewController.swift */,
 				753DEED21F7E59A600AEE151 /* ViewController.swift */,
 				753DEED41F7E59A600AEE151 /* Main.storyboard */,
 				753DEEDA1F7E59A600AEE151 /* Assets.xcassets */,
 				753DEEDC1F7E59A600AEE151 /* LaunchScreen.storyboard */,
 				753DEEDF1F7E59A600AEE151 /* Info.plist */,
+				7525A75A1F7E9621001FD1CB /* GoogleService-Info.plist */,
 				753DEED71F7E59A600AEE151 /* TaxiSharing.xcdatamodeld */,
 			);
 			path = TaxiSharing;
@@ -155,6 +164,8 @@
 			files = (
 				753DEEDE1F7E59A600AEE151 /* LaunchScreen.storyboard in Resources */,
 				753DEEDB1F7E59A600AEE151 /* Assets.xcassets in Resources */,
+				7525A75F1F7EC7EC001FD1CB /* GoogleService-Info.plist in Resources */,
+				7525A75C1F7EB7F1001FD1CB /* loginTX.storyboard in Resources */,
 				753DEED61F7E59A600AEE151 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,11 +180,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiSharing/Pods-TaxiSharing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -222,6 +241,7 @@
 			files = (
 				753DEED91F7E59A600AEE151 /* TaxiSharing.xcdatamodeld in Sources */,
 				753DEED31F7E59A600AEE151 /* ViewController.swift in Sources */,
+				7525A75E1F7EB817001FD1CB /* LoginTXViewController.swift in Sources */,
 				753DEED11F7E59A600AEE151 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TaxiSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing.lorenzo.gmail.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,7 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TaxiSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing.lorenzo.gmail.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
