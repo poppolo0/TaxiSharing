@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753DEED11F7E59A600AEE151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DEED01F7E59A600AEE151 /* AppDelegate.swift */; };
+		753DEED31F7E59A600AEE151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DEED21F7E59A600AEE151 /* ViewController.swift */; };
+		753DEED61F7E59A600AEE151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753DEED41F7E59A600AEE151 /* Main.storyboard */; };
+		753DEED91F7E59A600AEE151 /* TaxiSharing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 753DEED71F7E59A600AEE151 /* TaxiSharing.xcdatamodeld */; };
+		753DEEDB1F7E59A600AEE151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753DEEDA1F7E59A600AEE151 /* Assets.xcassets */; };
+		753DEEDE1F7E59A600AEE151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753DEEDC1F7E59A600AEE151 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		753DEECD1F7E59A600AEE151 /* TaxiSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753DEED01F7E59A600AEE151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753DEED21F7E59A600AEE151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753DEED51F7E59A600AEE151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		753DEED81F7E59A600AEE151 /* TaxiSharing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiSharing.xcdatamodel; sourceTree = "<group>"; };
+		753DEEDA1F7E59A600AEE151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		753DEEDD1F7E59A600AEE151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		753DEEDF1F7E59A600AEE151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753DEECA1F7E59A600AEE151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753DEEC41F7E59A600AEE151 = {
+			isa = PBXGroup;
+			children = (
+				753DEECF1F7E59A600AEE151 /* TaxiSharing */,
+				753DEECE1F7E59A600AEE151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		753DEECE1F7E59A600AEE151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753DEECD1F7E59A600AEE151 /* TaxiSharing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753DEECF1F7E59A600AEE151 /* TaxiSharing */ = {
+			isa = PBXGroup;
+			children = (
+				753DEED01F7E59A600AEE151 /* AppDelegate.swift */,
+				753DEED21F7E59A600AEE151 /* ViewController.swift */,
+				753DEED41F7E59A600AEE151 /* Main.storyboard */,
+				753DEEDA1F7E59A600AEE151 /* Assets.xcassets */,
+				753DEEDC1F7E59A600AEE151 /* LaunchScreen.storyboard */,
+				753DEEDF1F7E59A600AEE151 /* Info.plist */,
+				753DEED71F7E59A600AEE151 /* TaxiSharing.xcdatamodeld */,
+			);
+			path = TaxiSharing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753DEECC1F7E59A600AEE151 /* TaxiSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753DEEE21F7E59A600AEE151 /* Build configuration list for PBXNativeTarget "TaxiSharing" */;
+			buildPhases = (
+				753DEEC91F7E59A600AEE151 /* Sources */,
+				753DEECA1F7E59A600AEE151 /* Frameworks */,
+				753DEECB1F7E59A600AEE151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiSharing;
+			productName = TaxiSharing;
+			productReference = 753DEECD1F7E59A600AEE151 /* TaxiSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753DEEC51F7E59A600AEE151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mauriello Lorenzo";
+				TargetAttributes = {
+					753DEECC1F7E59A600AEE151 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 753DEEC81F7E59A600AEE151 /* Build configuration list for PBXProject "TaxiSharing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753DEEC41F7E59A600AEE151;
+			productRefGroup = 753DEECE1F7E59A600AEE151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753DEECC1F7E59A600AEE151 /* TaxiSharing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753DEECB1F7E59A600AEE151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753DEEDE1F7E59A600AEE151 /* LaunchScreen.storyboard in Resources */,
+				753DEEDB1F7E59A600AEE151 /* Assets.xcassets in Resources */,
+				753DEED61F7E59A600AEE151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753DEEC91F7E59A600AEE151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753DEED91F7E59A600AEE151 /* TaxiSharing.xcdatamodeld in Sources */,
+				753DEED31F7E59A600AEE151 /* ViewController.swift in Sources */,
+				753DEED11F7E59A600AEE151 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		753DEED41F7E59A600AEE151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753DEED51F7E59A600AEE151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		753DEEDC1F7E59A600AEE151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753DEEDD1F7E59A600AEE151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753DEEE01F7E59A600AEE151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		753DEEE11F7E59A600AEE151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753DEEE31F7E59A600AEE151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxiSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		753DEEE41F7E59A600AEE151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxiSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gruppo.TaxiSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753DEEC81F7E59A600AEE151 /* Build configuration list for PBXProject "TaxiSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753DEEE01F7E59A600AEE151 /* Debug */,
+				753DEEE11F7E59A600AEE151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753DEEE21F7E59A600AEE151 /* Build configuration list for PBXNativeTarget "TaxiSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753DEEE31F7E59A600AEE151 /* Debug */,
+				753DEEE41F7E59A600AEE151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		753DEED71F7E59A600AEE151 /* TaxiSharing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				753DEED81F7E59A600AEE151 /* TaxiSharing.xcdatamodel */,
+			);
+			currentVersion = 753DEED81F7E59A600AEE151 /* TaxiSharing.xcdatamodel */;
+			path = TaxiSharing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 753DEEC51F7E59A600AEE151 /* Project object */;
+}
